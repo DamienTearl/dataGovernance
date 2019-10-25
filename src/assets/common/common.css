@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body, .homePageBox, .el-container {
+  height: 100%;
+}
+.el-main {
+  overflow: auto;
+}
+
+.el-menu-item:focus, .el-menu-item:hover {
+  background-color: #006ab6!important;
+  color: #fff!important;
+}
+/* aside */
+.myAsideBox {
+  position: relative;
+  overflow: hidden;
+}
+.myAsideBox .shrinkBox {
+  
+}
+.myAside {
+  text-align: left;
+}
+.myAside .el-submenu__title i.titleIconfonts {
+  font-size: 30px;
+  color: #006ab7;
+  margin-right: 12px;
+}
+.myAside .el-submenu__title > span {
+  font-size: 16px;
+}
+.myAside .menuiconfonts {
+  color: inherit!important;
+  font-size: 24px;
+  margin-right: 12px;
+}
+.myAside .menuiconfontsarrow {
+  float: right;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.myAside .el-submenu .el-menu-item {
+  padding: 0 12px 0 22px!important;
+}
+.myAside .el-submenu__icon-arrow {
+  right: 12px;;
+}
+
+.mainModel {
+  padding: 0 0 0 20px;
+  background-color: #f5f5f5;
+}
+.mainModelBox {
+  background-color: #fff;
+  min-height: 100%;
+  padding: 0 20px;
+}
+.breadcrumbBox {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #535353;
+}
+.breadcrumbBox .el-breadcrumb {
+  line-height: inherit;
+}
+.breadcrumbBox .el-breadcrumb .el-breadcrumb__inner {
+  color: inherit;
+}
+.breadcrumbBox .el-breadcrumb .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  color: #006ab7;
+}
